@@ -1,0 +1,10 @@
+/* Initial state without transition */
+.form-transition {
+    transition: none;
+  }
+  
+  /* State with transition */
+  .form-transition-active {
+    transition: transform 1s ease-in-out;
+  }
+  

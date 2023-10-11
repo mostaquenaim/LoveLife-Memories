@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "avatar": "https://i.ibb.co/L6LwjkB/cust-5.jpg",
+      "rating": 5,
+      "review": "Great service! I am very satisfied with their products.",
+      "date": "2023-10-08"
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "avatar": "https://i.ibb.co/w4nt22Q/cust-2.jpg",
+      "rating": 4,
+      "review": "Good quality and fast delivery.",
+      "date": "2023-10-07"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "avatar": "https://i.ibb.co/Zxnfz4C/cust-3.jpg",
+      "rating": 3,
+      "review": "Decent product, but could be improved.",
+      "date": "2023-10-06"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "avatar": "https://i.ibb.co/47nHFhj/cust-1.jpg",
+      "rating": 5,
+      "review": "Excellent customer support! Highly recommended.",
+      "date": "2023-10-05"
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "avatar": "https://i.ibb.co/RBsDtn9/cust-4.jpg",
+      "rating": 4,
+      "review": "I'm satisfied with my purchase. Good job!",
+      "date": "2023-10-04"
+    }
+  ]
+  
