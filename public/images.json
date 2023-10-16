@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Image 1",
+        "url": "https://i.ibb.co/Vvqk4r1/wedding.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Image 2",
+        "url": "https://i.ibb.co/PhZ2w0R/birthday.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Image 3",
+        "url": "https://i.ibb.co/D8WKSBy/Holud.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Image 4",
+        "url": "https://i.ibb.co/tbhs7Qk/ash-1.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Image 5",
+        "url": "https://i.ibb.co/myxPw92/bridal-shower.jpg"
+    }
+]

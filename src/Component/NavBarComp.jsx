@@ -23,6 +23,11 @@ const NavBarComp = () => {
                         Achievements
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink className={liClass} to='/about/sister-concerns'>
+                        Sister Concerns
+                    </NavLink>
+                </li>
             </ul>
         </li>
 

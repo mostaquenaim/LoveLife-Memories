@@ -3,14 +3,14 @@ import Root from "../Root/Root";
 import Home from "../Home/Home";
 import About from "../pages/About/About";
 import Services from "../pages/Services";
-import ServiceDetails from "../PrivateRoutes/ServiceDetails";
+import ServiceDetails from "../pages/ServiceDetails";
 import Packages from "../pages/Packages";
 import NotFound from "../Component/NotFound";
 import Base from "../Base/Base";
-import Contact from "../PrivateRoutes/Contact/Contact";
+import Contact from "../pages/Contact/Contact";
 import Reviews from "../pages/Reviews";
 import Portfolio from "../pages/Portfolio";
-import PostReview from "../PrivateRoutes/Review/PostReview";
+import PostReview from "../pages/Review/PostReview";
 import Team from "../pages/Team";
 import JoinTeam from "../pages/Team/JoinTeam";
 import Investor from "../pages/Investor";
@@ -18,6 +18,7 @@ import Crew from "../pages/Team/Crew";
 import BOD from "../pages/Team/BOD";
 import WhyUs from "../pages/About/WhyUs";
 import Achievements from "../pages/About/Achievements";
+import SisterConcerns from "../pages/About/SisterConcerns";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
                     {
                         path: '/about/why-us',
                         element: <WhyUs></WhyUs>,
+                    },
+                    {
+                        path: '/about/sister-concerns',
+                        element: <SisterConcerns></SisterConcerns>,
                     },
                     {
                         path: '/about/achievements',
@@ -97,23 +102,6 @@ const router = createBrowserRouter([
                     },
                 ]
             },
-            // {
-            //     path: '/about',
-            //     element: <About></About>,
-            // },
-            // {
-            //     path: '/services',
-            //     element: <Services></Services>,
-            // },
-            // {
-            //     path: '/packages',
-            //     element: <Packages></Packages>,
-            // },
-            // {
-            //     path: '/service/:id',
-            //     element: <PrivateRouteComp><ServiceDetails></ServiceDetails></PrivateRouteComp>,
-            //     loader: () => fetch('/services.json')
-            // },
 
         ]
     }
