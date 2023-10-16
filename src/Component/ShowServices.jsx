@@ -28,11 +28,11 @@ const ShowServices = ({ service }) => {
 
   return (
     <div 
-      className="relative h-64 transition-transform transform hover:scale-105"
+      className="relative transition-transform transform hover:scale-105"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img className="h-64 w-full" src={image} alt={name} />
+      <img className=" w-full" src={image} alt={name} />
       {isHovered && (
         <div style={OverlayColor} className="absolute inset-0 text-white flex items-center justify-center transition-opacity ">
           <div className="text-center">

@@ -1,19 +1,23 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Root/Root";
 import Home from "../Home/Home";
-import Login from "../LoginAndReg/Login";
-import About from "../pages/About";
+import About from "../pages/About/About";
 import Services from "../pages/Services";
-import PrivateRouteComp from "../PrivateRoutes/PrivateRouteComp";
 import ServiceDetails from "../PrivateRoutes/ServiceDetails";
 import Packages from "../pages/Packages";
-import CheckSession from "../Auth/CheckSession";
 import NotFound from "../Component/NotFound";
 import Base from "../Base/Base";
 import Contact from "../PrivateRoutes/Contact/Contact";
 import Reviews from "../pages/Reviews";
 import Portfolio from "../pages/Portfolio";
 import PostReview from "../PrivateRoutes/Review/PostReview";
+import Team from "../pages/Team";
+import JoinTeam from "../pages/Team/JoinTeam";
+import Investor from "../pages/Investor";
+import Crew from "../pages/Team/Crew";
+import BOD from "../pages/Team/BOD";
+import WhyUs from "../pages/About/WhyUs";
+import Achievements from "../pages/About/Achievements";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +38,14 @@ const router = createBrowserRouter([
                         element: <About></About>,
                     },
                     {
+                        path: '/about/why-us',
+                        element: <WhyUs></WhyUs>,
+                    },
+                    {
+                        path: '/about/achievements',
+                        element: <Achievements></Achievements>,
+                    },
+                    {
                         path: '/services',
                         element: <Services></Services>,
                     },
@@ -47,12 +59,12 @@ const router = createBrowserRouter([
                     },
                     {
                         path: '/service/:id',
-                        element: <PrivateRouteComp><ServiceDetails></ServiceDetails></PrivateRouteComp>,
+                        element: <ServiceDetails></ServiceDetails>,
                         loader: () => fetch('/services.json')
                     },
                     {
                         path: '/contact',
-                        element: <PrivateRouteComp><Contact></Contact></PrivateRouteComp>,
+                        element: <Contact></Contact>,
                     },
                     {
                         path: '/reviews',
@@ -61,13 +73,29 @@ const router = createBrowserRouter([
                     },
                     {
                         path: '/postReview',
-                        element: <PrivateRouteComp><PostReview></PostReview></PrivateRouteComp>,
+                        element: <PostReview></PostReview>,
+                    },
+                    {
+                        path: '/team',
+                        element: <Team></Team>,
+                    },
+                    {
+                        path: '/team/join-our-team',
+                        element: <JoinTeam></JoinTeam>,
+                    },
+                    {
+                        path: '/team/our-crew',
+                        element: <Crew></Crew>,
+                    },
+                    {
+                        path: '/team/board-of-directors',
+                        element: <BOD></BOD>,
+                    },
+                    {
+                        path: '/join-as-investor',
+                        element: <Investor></Investor>,
                     },
                 ]
-            },
-            {
-                path: '/login',
-                element: <CheckSession><Login></Login></CheckSession>,
             },
             // {
             //     path: '/about',

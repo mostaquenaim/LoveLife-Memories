@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "John Doe",
+      "name": "Arjun Kumar",
       "avatar": "https://i.ibb.co/L6LwjkB/cust-5.jpg",
       "rating": 5,
       "review": "Great service! I am very satisfied with their products.",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Alice Smith",
+      "name": "Tahmid Rezwan",
       "avatar": "https://i.ibb.co/w4nt22Q/cust-2.jpg",
       "rating": 4,
       "review": "Good quality and fast delivery.",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "name": "Bob Johnson",
+      "name": "Mostaque A.",
       "avatar": "https://i.ibb.co/Zxnfz4C/cust-3.jpg",
       "rating": 3,
       "review": "Decent product, but could be improved.",
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "name": "Emily Brown",
+      "name": "Ashiq Ahmed",
       "avatar": "https://i.ibb.co/47nHFhj/cust-1.jpg",
       "rating": 5,
       "review": "Excellent customer support! Highly recommended.",
@@ -33,7 +33,7 @@
     },
     {
       "id": 5,
-      "name": "Michael Wilson",
+      "name": "Tohfa XD",
       "avatar": "https://i.ibb.co/RBsDtn9/cust-4.jpg",
       "rating": 4,
       "review": "I'm satisfied with my purchase. Good job!",
