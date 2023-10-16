@@ -38,7 +38,7 @@ const ShowImages = () => {
                         // <figure key={index} className='relative h-64 '>
                         <img
                             key={index}
-                            src={image.url} alt="" className="h-64 rounded-[28px] mr-5 cursor-pointer"
+                            src={image.url} alt="" className="h-32 md:h-64 rounded-[28px] mr-2 md:mr-5 cursor-pointer"
                             onClick={() => handleImageClick(image)}
                         />
                         // </figure>
@@ -52,7 +52,7 @@ const ShowImages = () => {
                     images2.map((image, index) => (
                         // <figure key={index}>
                         <img
-                            key={index} src={image.url} alt="" className="h-64 rounded-[28px] mr-5 cursor-pointer"
+                            key={index} src={image.url} alt="" className="h-32 md:h-64 rounded-[28px] mr-2 md:mr-5 cursor-pointer"
                             onClick={() => handleImageClick(image)} />
                         // </figure>
                     )

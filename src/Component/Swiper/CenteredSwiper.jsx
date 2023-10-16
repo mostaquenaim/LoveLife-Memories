@@ -14,6 +14,7 @@ const CenteredSwiper = () => {
     return (
         <>
             <Swiper
+                data-aos="fade-right"
                 slidesPerView={2}
                 centeredSlides={true}
                 spaceBetween={10}
@@ -26,35 +27,35 @@ const CenteredSwiper = () => {
                     Pagination,
                     Navigation
                 ]}
-                className="mySwiper"
+                className="mySwiper overflow-hidden"
             >
                 <SwiperSlide>
-                    <iframe width="800" height="400"
+                    <iframe className='w-[400px] h-[200px] md:w-[800px] md:h-[400px]'
                         src="https://www.youtube.com/embed/eJ1yj4WaupE?si=CekPGmt_AAFn7MLV&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <iframe width="800" height="400"
+                    <iframe className='w-[400px] h-[200px] md:w-[800px] md:h-[400px]'
                         src="https://www.youtube.com/embed/26C7pptL66g?si=0XaSDKn0dDaHiBCh&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <iframe width="800" height="400"
+                    <iframe className='w-[400px] h-[200px] md:w-[800px] md:h-[400px]'
                         src="https://www.youtube.com/embed/v1dDWhOsirc?si=UwdvyG9OLJqhV2mb&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <iframe width="800" height="400"
+                    <iframe className='w-[400px] h-[200px] md:w-[800px] md:h-[400px]'
                         src="https://www.youtube.com/embed/c0wFowxRbuY?si=SaX1PuJx2XQpUVDi&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <iframe width="800" height="400"
+                    <iframe className='w-[400px] h-[200px] md:w-[800px] md:h-[400px]'
                         src="https://www.youtube.com/embed/Y2nBWVdavbs?si=-1dSXev1Og1-_S70&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <iframe width="800" height="400"
+                    <iframe className='w-[400px] h-[200px] md:w-[800px] md:h-[400px]'
                         src="https://www.youtube.com/embed/tEELPwzOnG4?si=CdIKIjjhDdVr7jCm&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                     </iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <iframe width="800" height="400"
+                    <iframe className='w-[400px] h-[200px] md:w-[800px] md:h-[400px]'
                         src="https://www.youtube.com/embed/i5C3k1r-D6o?si=oJ_1aJQohCaqFMS3&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                     </iframe>
                 </SwiperSlide>
