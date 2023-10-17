@@ -15,12 +15,17 @@ const Reviews = () => {
 
   return (
     <section className="text-gray-600 body-font text-center my-10">
-      <div className="container px-5 py-10 mx-auto">
-        <h1 className="text-3xl title-font text-primary font-bold mb-12 text-center mt-20">
+      <div className="container px-5 pb-10 mx-auto">
+        <h1
+          data-aos='zoom-in'
+          className="text-3xl title-font text-primary font-bold mb-12 text-center mt-20">
           Reviews
         </h1>
-        <a href='https://www.facebook.com/LovelifeMemoriesBD/reviews' target='_blank'
-          className='flex justify-center text-center mx-auto p-2 items-center bg-neutral text-white w-48 rounded-lg gap-3 my-5'
+        <a
+          data-aos='fade-up'
+          href='https://www.facebook.com/LovelifeMemoriesBD/reviews' target='_blank'
+          className='flex justify-center text-center mx-auto p-2 items-center 
+          bg-neutral text-white w-48 rounded-lg gap-3 my-5 hover:text-neutral hover:bg-secondary duration-700'
           rel="noreferrer">
           <FaFacebookF></FaFacebookF> <span>Write a review</span>
         </a>

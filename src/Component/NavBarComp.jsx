@@ -5,7 +5,6 @@ const NavBarComp = () => {
     const liClass = "text-black bg-white hover:bg-primary border-red-100 border-2"
     const parentLiClass = 'text-black bg-white rounded-lg relative group'
     const ulClass = 'ml-4 absolute z-50 top-0 mt-2 hidden hover:block group-hover:block'
-
     const navLinks = <>
         <li><NavLink className={liClass} to='/'>Home</NavLink></li>
         <li tabIndex={0} className={parentLiClass}>
@@ -59,27 +58,31 @@ const NavBarComp = () => {
 
         <li><NavLink className='lg:hidden text-black bg-white hover:bg-primary' to='/join-as-investor'>Join as Investor</NavLink></li>
     </>
-
     const image = "/LLM-White-logo.png"
 
     return (
         <>
-            <div className="text-center bg-transparent absolute w-full z-50">
+            <div className="text-center bg-neutral fixed w-full z-50">
                 <div className="mx-auto">
-                    <Link className="md:hidden lg:inline-block btn bg-transparent hover:bg-transparent border-transparent shadow-transparent outline-none normal-case text-xl">
-                        <img src={image} alt="logo" className="h-14" />
+                    <Link className="hidden lg:inline-block bg-transparent hover:bg-transparent border-transparent shadow-transparent outline-none normal-case text-xl">
+                        <img src={image} alt="logo" className="h-16 mx-auto" />
+                        {/* <span className="font-luxurious font-bold text-base-100 text-5xl relative">
+                            <span className="absolute top-0 left-0 text-neutral -z-1">LoveLife Memories</span>
+                            LoveLife Memories
+                        </span> */}
+                        {/* <span className="font-luxurious font-medium text-base-100 text-5xl">LoveLife Memories</span> */}
                     </Link>
                 </div>
-                <div className="navbar bg-transparent fixed">
+                <div className="navbar bg-neutral fixed">
                     <div className="navbar-start">
                         <div className="dropdown">
-                            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                            <label tabIndex={0} className="btn btn-ghost lg:hidden hover:bg-neutral">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-8 w-8"
                                     fill="none"
                                     viewBox="0 0 24 24"
-                                    stroke="#ffffff">
+                                    stroke="#f2eded">
                                     <path strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth="3"
@@ -97,8 +100,8 @@ const NavBarComp = () => {
                         <ul className="hidden lg:flex menu menu-horizontal px-1 gap-5">
                             {navLinks}
                         </ul>
-                        <Link className="hidden md:inline-block lg:hidden btn bg-transparent hover:bg-transparent border-transparent shadow-transparent outline-none normal-case text-xl">
-                            <img src={image} alt="logo" className="h-14" />
+                        <Link className=" md:inline-block lg:hidden btn bg-transparent hover:bg-transparent border-transparent shadow-transparent outline-none normal-case text-xl">
+                            <img src={image} alt="logo" className="h-10 md:h-16" />
                         </Link>
                     </div>
                     <div className="navbar-end md:text-3xl gap-3">

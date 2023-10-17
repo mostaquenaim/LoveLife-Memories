@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 import About from "../pages/About/About";
 import Services from "../pages/Services";
 import ServiceDetails from "../pages/ServiceDetails";
-import Packages from "../pages/Packages";
+import Packages from "../pages/Packages/Packages";
 import NotFound from "../Component/NotFound";
 import Base from "../Base/Base";
 import Contact from "../pages/Contact/Contact";

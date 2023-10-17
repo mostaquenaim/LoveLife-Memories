@@ -1,6 +1,6 @@
 import About from "../pages/About/About";
 import Footer from "../Component/Footer";
-import Packages from "../pages/Packages";
+import Packages from "../pages/Packages/Packages";
 import Services from "../pages/Services";
 import Reviews from "../pages/Reviews";
 import { GoSponsorTiers } from "react-icons/go";
@@ -31,13 +31,14 @@ const Home = () => {
 
                 <figure className="relative">
                     <img src="/lovelife-banner.jpg" className="bg-blend-normal" alt="" />
-                    <div className="hidden lg:inline-block absolute h-full top-0 opacity-50 w-full bg-black"></div>
+                    <div className="hidden lg:inline-block absolute h-full top-0 opacity-50  w-full bg-black"></div>
                     <button className="hidden absolute btn rounded-lg top-0 right-0 m-3 bg-neutral text-white border-white hover:bg-base-100 hover:text-black z-50 lg:flex gap-3">
                         <GoSponsorTiers className="text-lg"></GoSponsorTiers>
                         Join as an Investor
                     </button>
                 </figure>
                 <ShowImages></ShowImages>
+                
                 <WhyUs></WhyUs>
                 <OurWork></OurWork>
                 {/* <div data-aos="fade-up">
@@ -46,7 +47,7 @@ const Home = () => {
                 <Services></Services>
                 <Packages></Packages> */}
                 <Reviews></Reviews>
-                <Footer></Footer>
+                {/* <Footer></Footer> */}
             </div>
 
         </div>

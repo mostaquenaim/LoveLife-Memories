@@ -32,6 +32,7 @@ const ShowImages = () => {
 
     return (
         <>
+        <div className='pb-20 border-b-2'>
             <Marquee className="mt-10" pauseOnHover speed={50}>
                 {
                     images.map((image, index) => (
@@ -59,6 +60,7 @@ const ShowImages = () => {
                     )
                 }
             </Marquee>
+            
             {/* Modal to display the clicked image */}
             {clickedImage && (
                 <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-80 z-50">
@@ -77,6 +79,7 @@ const ShowImages = () => {
                     </div>
                 </div>
             )}
+            </div>
         </>
     );
 };

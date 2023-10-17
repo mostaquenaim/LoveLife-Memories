@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
-import ShowPackage from '../Component/ShowPackage';
-import Footer from '../Component/Footer';
+import ShowPackage from '../../Component/Package/ShowPackage';
 
-const Packages = () => {
+const TempPackages = () => {
     const [packages, setPackages] = useState([]);
 
     useEffect(() => {
@@ -35,4 +34,4 @@ const Packages = () => {
     );
 };
 
-export default Packages;
+export default TempPackages;

@@ -10,13 +10,13 @@ import './swiper.css';
 // import required modules
 import { Navigation, Pagination } from 'swiper/modules';
 
-const CenteredSwiper = () => {
-    const iframeClass = 'w-[400px] h-[200px] lg:w-[800px] lg:h-[400px]'
+const SmallCenterSwiper = () => {
+    const iframeClass = 'w-full h-96'
     return (
         <>
             <Swiper
                 data-aos="fade-right"
-                slidesPerView={2}
+                slidesPerView={1}
                 centeredSlides={true}
                 spaceBetween={10}
                 loop={true}
@@ -65,4 +65,4 @@ const CenteredSwiper = () => {
     );
 };
 
-export default CenteredSwiper;
+export default SmallCenterSwiper;
