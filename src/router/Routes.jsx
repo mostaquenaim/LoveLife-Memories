@@ -19,6 +19,7 @@ import BOD from "../pages/Team/BOD";
 import WhyUs from "../pages/About/WhyUs";
 import Achievements from "../pages/About/Achievements";
 import SisterConcerns from "../pages/About/SisterConcerns";
+import ShowPackageByID from "../pages/Packages/ShowPackageByID";
 
 const router = createBrowserRouter([
     {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
                     {
                         path: '/packages',
                         element: <Packages></Packages>,
+                    },
+                    {
+                        path: '/show-package/:id',
+                        element: <ShowPackageByID></ShowPackageByID>,
                     },
                     {
                         path: '/portfolio',
