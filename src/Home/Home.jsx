@@ -2,7 +2,7 @@ import About from "../pages/About/About";
 import Footer from "../Component/Footer";
 import Packages from "../pages/Packages/Packages";
 import Services from "../pages/Services";
-import Reviews from "../pages/Reviews";
+import Reviews from "../pages/Review/Reviews";
 import { GoSponsorTiers } from "react-icons/go";
 import ShowImages from "../Component/HomePageImages/ShowImages";
 import { useEffect, useState } from "react";

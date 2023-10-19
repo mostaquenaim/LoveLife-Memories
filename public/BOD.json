@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "position": "Chairman",
+        "email": "john.smith@example.com",
+        "phone": "+1 (123) 456-7890",
+        "image" : "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/350116432_1022635662058258_8922947998477743915_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH2kEjmGMcvrPcaZsKDrh41I-go21ENzacj6CjbUQ3NpzBNInaZGFst4NtQWOxUEVW20Ba77flHo3s5sQuiYW5k&_nc_ohc=8VmCMRNv4OIAX9GUojk&_nc_oc=AQmNZKg8_nokp69kNGTOlkzzQ98puaMNvbabyNiPp9YSScowzBwLhIL5JSsD5U1mRyM&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDz7QPUxiF0iOZctt9DOMn2tWxBM7lwlhRSkykw0cy4DA&oe=653447B1",
+        "linkedin": "https://www.linkedin.com/in/johnsmith"
+    },
+    {
+        "id": 2,
+        "name": "Alice Johnson",
+        "position": "CEO",
+        "email": "alice.johnson@example.com",
+        "phone": "+1 (234) 567-8901",
+        "image" : "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/350116432_1022635662058258_8922947998477743915_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH2kEjmGMcvrPcaZsKDrh41I-go21ENzacj6CjbUQ3NpzBNInaZGFst4NtQWOxUEVW20Ba77flHo3s5sQuiYW5k&_nc_ohc=8VmCMRNv4OIAX9GUojk&_nc_oc=AQmNZKg8_nokp69kNGTOlkzzQ98puaMNvbabyNiPp9YSScowzBwLhIL5JSsD5U1mRyM&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDz7QPUxiF0iOZctt9DOMn2tWxBM7lwlhRSkykw0cy4DA&oe=653447B1",
+        "linkedin": "https://www.linkedin.com/in/alicejohnson"
+    },
+    {
+        "id": 3,
+        "name": "Robert Wilson",
+        "position": "CFO",
+        "email": "robert.wilson@example.com",
+        "phone": "+1 (345) 678-9012",
+        "image" : "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/350116432_1022635662058258_8922947998477743915_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH2kEjmGMcvrPcaZsKDrh41I-go21ENzacj6CjbUQ3NpzBNInaZGFst4NtQWOxUEVW20Ba77flHo3s5sQuiYW5k&_nc_ohc=8VmCMRNv4OIAX9GUojk&_nc_oc=AQmNZKg8_nokp69kNGTOlkzzQ98puaMNvbabyNiPp9YSScowzBwLhIL5JSsD5U1mRyM&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDz7QPUxiF0iOZctt9DOMn2tWxBM7lwlhRSkykw0cy4DA&oe=653447B1",
+        "linkedin": "https://www.linkedin.com/in/robertwilson"
+    }
+]

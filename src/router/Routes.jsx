@@ -8,8 +8,8 @@ import Packages from "../pages/Packages/Packages";
 import NotFound from "../Component/NotFound";
 import Base from "../Base/Base";
 import Contact from "../pages/Contact/Contact";
-import Reviews from "../pages/Reviews";
-import Portfolio from "../pages/Portfolio";
+import Reviews from "../pages/Review/Reviews";
+import Portfolio from "../pages/Portfolio/Portfolio";
 import PostReview from "../pages/Review/PostReview";
 import Team from "../pages/Team";
 import JoinTeam from "../pages/Team/JoinTeam";
@@ -46,10 +46,12 @@ const router = createBrowserRouter([
                     {
                         path: '/about/sister-concerns',
                         element: <SisterConcerns></SisterConcerns>,
+                        loader: () => fetch('/sisters.json')
                     },
                     {
                         path: '/about/achievements',
                         element: <Achievements></Achievements>,
+                        loader : () => fetch('/achievements.json')
                     },
                     {
                         path: '/services',
@@ -66,6 +68,7 @@ const router = createBrowserRouter([
                     {
                         path: '/portfolio',
                         element: <Portfolio></Portfolio>,
+                        loader : () => fetch('/portfolio-photos.json')
                     },
                     {
                         path: '/service/:id',
@@ -92,6 +95,7 @@ const router = createBrowserRouter([
                     {
                         path: '/team/join-our-team',
                         element: <JoinTeam></JoinTeam>,
+                        loader: () => fetch('/available-positions.json')
                     },
                     {
                         path: '/team/our-crew',
@@ -100,6 +104,7 @@ const router = createBrowserRouter([
                     {
                         path: '/team/board-of-directors',
                         element: <BOD></BOD>,
+                        loader: () => fetch('/BOD.json')
                     },
                     {
                         path: '/join-as-investor',

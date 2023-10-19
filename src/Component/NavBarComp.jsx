@@ -109,10 +109,10 @@ const NavBarComp = () => {
                         <SocialLinks />
                     </div>
                 </div>
-                <button className="hidden absolute btn rounded-lg top-0 right-0 m-3 bg-neutral text-white border-white hover:bg-base-100 hover:text-black z-50 lg:flex gap-3">
+                <Link to='/join-as-investor' className="hidden absolute btn rounded-lg top-0 right-0 m-3 bg-neutral text-white border-white hover:bg-base-100 hover:text-black z-50 lg:flex gap-3">
                     <GoSponsorTiers className="text-lg"></GoSponsorTiers>
                     Join as an Investor
-                </button>
+                </Link>
             </div>
         </>
     );

@@ -1,5 +1,5 @@
 import { Link, useLoaderData } from 'react-router-dom';
-import ShowReview from '../Component/ShowReview';
+import ShowReview from '../../Component/ShowReview';
 import { SiApache } from "react-icons/si";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
 import { useEffect, useState } from 'react';

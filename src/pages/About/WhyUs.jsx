@@ -5,7 +5,7 @@ const WhyUs = () => {
             <div className="bg-base-100">
                 <section
                     id="why-choose-us"
-                    className="relative block px-6 py-10 md:py-20 md:px-10 border-neutral-900 ">
+                    className="relative block px-6 py-10 lg:py-40 md:px-10 border-neutral-900 ">
                     <div className="relative mx-auto max-w-5xl text-center">
                         <span
                             data-aos="zoom-in"

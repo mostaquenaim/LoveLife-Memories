@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "position": "Photographer",
+        "location": "Dhaka, Bangladesh",
+        "description": "We are looking for a skilled and creative photographer to join our team. The ideal candidate should have experience in capturing various events and moments with an artistic touch. If you are passionate about photography and want to be a part of a dynamic team, apply now.",
+        "requirements": [
+            "Proven experience as a photographer",
+            "Strong portfolio showcasing your work",
+            "Excellent knowledge of photography equipment",
+            "Creativity and artistic skills",
+            "Strong communication and teamwork abilities"
+        ],
+        "responsibilities": [
+            "Capture high-quality and creative photographs at various events",
+            "Edit and retouch photos to meet our standards",
+            "Collaborate with the team to plan and execute photography projects",
+            "Maintain and organize photography equipment",
+            "Stay updated with industry trends and techniques"
+        ]
+    },
+    {
+        "id": 2,
+        "position": "Cinematographer",
+        "location": "Dhaka, Bangladesh",
+        "description": "Are you a talented cinematographer with a passion for capturing moments on film? We're seeking a cinematographer to join our team and bring stories to life through video. If you have experience in cinematography and want to work on exciting projects, we'd love to hear from you.",
+        "requirements": [
+            "Proven experience as a cinematographer",
+            "Strong portfolio of cinematic work",
+            "Proficiency in video editing software",
+            "Creativity and storytelling skills",
+            "Ability to work well in a team"
+        ],
+        "responsibilities": [
+            "Plan and execute cinematic shots for various projects",
+            "Edit and enhance video footage to create compelling content",
+            "Collaborate with the team to storyboard and script video projects",
+            "Operate and maintain video equipment",
+            "Stay updated with industry trends and techniques"
+        ]
+    },
+    {
+        "id": 3,
+        "position": "Event Planner",
+        "location": "Dhaka, Bangladesh",
+        "description": "LoveLife Memories is looking for an enthusiastic event planner to join our team. If you have experience in organizing and coordinating events, and you're excited about creating unforgettable experiences for our clients, apply for this position today.",
+        "requirements": [
+            "Proven experience in event planning",
+            "Strong organizational and multitasking skills",
+            "Excellent communication and negotiation abilities",
+            "Creativity and attention to detail",
+            "Ability to work under pressure"
+        ],
+        "responsibilities": [
+            "Plan, coordinate, and execute events to meet client expectations",
+            "Negotiate with vendors and suppliers to secure the best deals",
+            "Create and manage event budgets and timelines",
+            "Ensure events run smoothly and troubleshoot issues when necessary",
+            "Stay updated with event planning trends and industry standards"
+        ]
+    },
+    {
+        "id": 4,
+        "position": "Marketing Specialist",
+        "location": "Dhaka, Bangladesh",
+        "description": "We're looking for a marketing specialist to help promote our services and reach a wider audience. If you have experience in digital marketing, social media management, and creating engaging content, join our team and contribute to our brand's growth.",
+        "requirements": [
+            "Proven experience in digital marketing and social media management",
+            "Strong analytical and creative skills",
+            "Proficiency in content creation and online advertising",
+            "Excellent communication and teamwork abilities",
+            "Knowledge of SEO and online marketing tools"
+        ],
+        "responsibilities": [
+            "Develop and implement marketing strategies to promote our brand",
+            "Create and manage engaging content for our social media platforms",
+            "Analyze marketing data and metrics to optimize campaigns",
+            "Collaborate with the team to plan and execute marketing initiatives",
+            "Stay updated with digital marketing trends and best practices"
+        ]
+    }
+]

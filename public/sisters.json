@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Tahams",
+        "description": "Tahams is a clothing brand known for its trendy and stylish apparel.",
+        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/258775534_111677824669144_93912371190077386_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE2SWlxyL73CC3Av9_czS6sOa-2TGBW2L45r7ZMYFbYvo1F_hicoeQO3NAAGLRLeS6U8cGZ3BP2bIxZt1GQatL2&_nc_ohc=1FBKZ27E8NwAX_2uYKV&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDziIHF-dmDXzNWKJcOkvytCd0rnTtWMGh0WRM7xE83pw&oe=65360DAE",
+        "phone": "01602-054102",
+        "email": "tahamsbd@gmail.com",
+        "website": "tahams.com"
+    },
+    {
+        "name": "Sammtech",
+        "description": "Sammtech is a tech-related company specializing in digital marketing, website development, and more.",
+        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/280732021_5692569894103701_6056034140022400375_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEyxixjO9BmCXdigrF1eFmqWgajWTlTZdFaBqNZOVNl0RQC7lIQxbrTG6jnZL7iL4P9ADCGfORacN6NI17JiZ1A&_nc_ohc=gfCpqcXthAsAX8FkIw5&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDGP_dKgJQuf56L4SLvL8raJ1aumrIEUanIp45lhNNg0A&oe=653592A7",
+        "phone": "+1 267-210-4576",
+        "email": "sammtechit@gmail.com",
+        "website": "https://samm-tech.net/"
+    }
+]
