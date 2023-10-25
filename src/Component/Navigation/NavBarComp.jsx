@@ -1,17 +1,23 @@
 import { Link, NavLink } from "react-router-dom";
-import SocialLinks from "./Socials/SocialLinks";
+import SocialLinks from "../Socials/SocialLinks";
 import { GoSponsorTiers } from "react-icons/go";
+import Drawer from "./Drawer";
+import { useContext } from "react";
+import { ProjectContext } from "../Context/Provider";
+import Spinner from "../Spinner/Spinner";
+import CustomDrawer from "./CustomDrawer";
 const NavBarComp = () => {
 
     const liClass = "text-black bg-white hover:bg-primary border-red-100 border-2"
     const parentLiClass = 'text-black bg-white rounded-lg relative group'
-    const ulClass = 'ml-4 absolute z-50 top-0 mt-2 hidden hover:block group-hover:block'
+    const ulClass = 'ml-4 absolute z-50 top-3 lg:top-7 left-0 mt-2 hidden hover:block group-hover:block'
+
     const navLinks = <>
         <li><NavLink className={liClass} to='/'>Home</NavLink></li>
         <li tabIndex={0} className={parentLiClass}>
-            <NavLink className={liClass} to='/about'>
+            <button className={liClass}>
                 About
-            </NavLink>
+            </button>
             <ul className={ulClass}>
                 <li>
                     <NavLink className={liClass} to='/about/why-us'>
@@ -35,11 +41,11 @@ const NavBarComp = () => {
         <li><NavLink className={liClass} to='/portfolio'>Portfolio</NavLink></li>
 
         <li tabIndex={0} className={parentLiClass}>
-            <NavLink className={liClass} to='/team'>
-                Our Team
-            </NavLink>
+            <button className={liClass}>
+                Team
+            </button>
             <ul className={ulClass}>
-                <li className="w-36">
+                <li className="">
                     <NavLink className={liClass} to='/team/our-crew'>
                         Our Crew
                     </NavLink>
@@ -61,39 +67,32 @@ const NavBarComp = () => {
     </>
     const image = "/LLM-White-logo.png"
 
+    const { loading } = useContext(ProjectContext)
+
     return (
         <>
             <div className="text-center bg-neutral fixed w-full z-50">
+                <div className="absolute top-0 left-0 m-5 gap-1 flex text-white  text-sm">
+                    <button className="opacity-80 hover:opacity-90 text-xs">Collaborate as a Partner</button>
+                    <span className="opacity-50">|</span>
+                    <button className="opacity-80 hover:opacity-90 text-xs">Referral Marketing</button>
+                    <span className="opacity-50">|</span>
+                    <button className="opacity-80 hover:opacity-90 text-xs">Franchise Available</button>
+                </div>
                 <div className="mx-auto">
                     <Link className="hidden lg:inline-block bg-transparent hover:bg-transparent border-transparent shadow-transparent outline-none normal-case text-xl">
                         <img src={image} alt="logo" className="h-16 mx-auto" />
-                        {/* <span className="font-luxurious font-bold text-base-100 text-5xl relative">
-                            <span className="absolute top-0 left-0 text-neutral -z-1">LoveLife Memories</span>
-                            LoveLife Memories
-                        </span> */}
-                        {/* <span className="font-luxurious font-medium text-base-100 text-5xl">LoveLife Memories</span> */}
                     </Link>
+
                 </div>
                 <div className="navbar bg-neutral fixed">
                     <div className="navbar-start">
-                        <div className="dropdown">
-                            <label tabIndex={0} className="btn btn-ghost lg:hidden hover:bg-neutral">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-8 w-8"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="#f2eded">
-                                    <path strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="3"
-                                        d="M4 6h16M4 12h8m-8 6h16"
-                                    /></svg>
-                            </label>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-transparent">
-                                {navLinks}
-                            </ul>
-                        </div>
+                        {
+                            loading ?
+                                <Spinner></Spinner>
+                                :
+                                <CustomDrawer></CustomDrawer>
+                        }
                         <div className="hidden group text-3xl lg:flex gap-3">
                         </div>
                     </div>

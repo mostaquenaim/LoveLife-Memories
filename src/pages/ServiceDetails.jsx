@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useContext } from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { ProjectContext } from '../Component/Context/Provider';
 
 const ServiceDetails = () => {
     const { id } = useParams();
@@ -8,11 +10,18 @@ const ServiceDetails = () => {
     console.log(services)
     const [service, setService] = useState({})
     const [images, setImages] = useState([])
+
+    const { setLoading } = useContext(ProjectContext)
+
     useEffect(() => {
+        setLoading(true)
+
         const res = services.find((service) => service.id == id)
         setService(res)
         setImages(res.images)
-    }, [id, services])
+
+        setLoading(false)
+    }, [id, services, setLoading])
 
     const bgColor = {
         backgroundColor: service.color,

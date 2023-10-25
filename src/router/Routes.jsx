@@ -20,6 +20,7 @@ import WhyUs from "../pages/About/WhyUs";
 import Achievements from "../pages/About/Achievements";
 import SisterConcerns from "../pages/About/SisterConcerns";
 import ShowPackageByID from "../pages/Packages/ShowPackageByID";
+import Payment from "../pages/Payment";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
                     {
                         path: '/',
                         element: <Home></Home>,
+                        loader: () => fetch('/banners.json')
                     },
                     {
                         path: '/about',
@@ -42,6 +44,7 @@ const router = createBrowserRouter([
                     {
                         path: '/about/why-us',
                         element: <WhyUs></WhyUs>,
+                        // loader: () => fetch('/WhyUs.json')
                     },
                     {
                         path: '/about/sister-concerns',
@@ -60,6 +63,10 @@ const router = createBrowserRouter([
                     {
                         path: '/packages',
                         element: <Packages></Packages>,
+                    },
+                    {
+                        path: '/payment',
+                        element: <Payment></Payment>,
                     },
                     {
                         path: '/show-package/:id',

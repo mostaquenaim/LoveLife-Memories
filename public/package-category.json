@@ -1,8 +1,15 @@
 [
+    
+
+
+
+
+
+
     {
         "id": 1,
         "name": "Standard",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/349464406_218504300951525_7930778600625260754_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF8_FZcpMUh3aFA431Eb14F0SU-U5z_MlLRJT5TnP8yUto4NkFYnDExlY0jP6lyY9AQOWjeBS3j1fEZQgkzkOC_&_nc_ohc=gtgErWd5cFgAX_kETRz&_nc_ht=scontent.fdac14-1.fna&oh=00_AfBZhqBhoRLJGMtAJdGCb8SzlpMg-8RCzplWYaU4dGUjbA&oe=6532EE96",
+        "image": "https://i.ibb.co/TKrDXh4/6-wecompress-com.jpg",
         "packages": [
             {
                 "name": "Standard Package 1",
@@ -83,7 +90,7 @@
     {
         "id": 2,
         "name": "Elite",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/327310904_897714954614070_4376403674438055095_n.jpg?stp=dst-jpg_p417x417&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEukr-eJROCSKEHVgIYN9qGuHRhz69Z2sO4dGHPr1nawy7sMwY8zIno7aMbZxT3yQpHuiTXPAnRs0bPgmewHT-e&_nc_ohc=CGBASNEqGQwAX9cStUx&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCcHpcEEuUSNW-ynWUd2YhZvaWjHZ-6Rx6yAJZihrns8A&oe=6533BFE7",
+        "image": "https://i.ibb.co/XyFC7nH/5-wecompress-com.jpg",
         "packages": [
             {
                 "name": "ELITE PACKAGE 1",
@@ -164,7 +171,7 @@
     {
         "id": 3,
         "name": "Storytelling",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/386758626_651401630427617_6714312058519095751_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG3xTo6SFuHdsD8kPR5AmLqeTB9p7gdkn15MH2nuB2SfVq7q29A7SU8kcgDjhEnpcBje8WqErbi-2dWy1A-06xE&_nc_ohc=Ud1-7dv_JOgAX-ZVE5h&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCHpltCJJds9yUviAPY61BmzehP-FJMc80wdH5Y2U2fpw&oe=65331140",
+        "image": "https://i.ibb.co/w03q8Sw/3-wecompress-com.jpg",
         "packages": [
             {
                 "name": "STORY TELLING PACKAGE 1",
@@ -265,7 +272,7 @@
     {
         "id": 4,
         "name": "Female Photography",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/315740776_1444761695929493_1261511985830696369_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEJbwV7VroV2AZUdIh61rDB5OZtmSTqhpPk5m2ZJOqGk2fELzd9K3SZ1d3qIpWlC0v916-l8iNZYDJQqyivcfIa&_nc_ohc=Yr_zjDB59jAAX_hhIDP&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCNqbXvU9P0HV0tXedmSSs7C3h8zkhsRxt-vDP80KRcqw&oe=65334812",
+        "image": "https://i.ibb.co/YLFWyjt/female-wecompress-com.jpg",
         "packages": [
             {
                 "name": "FEMALE PHOTOGRAPHER PACKAGE 1",
@@ -318,7 +325,7 @@
     {
         "id": 5,
         "name": "HINDU",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/329025082_494123249582165_8832970611182916782_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEZokmYwgqvhZMXMNEy0DXdpwoUNZ1YjKanChQ1nViMpqOw7mcHWBeyHOEJ-Qgs0aFAqJvsOhJNbRQaGaqhhKMj&_nc_ohc=dQ08XNb9F3AAX9KqyL5&_nc_ht=scontent.fdac14-1.fna&oh=00_AfD20k0c_a6AhCIydTgR629UBSI5vF8d7rBUTGkjELEUpA&oe=65336643",
+        "image": "https://i.ibb.co/fHHWfwW/hindu.jpg",
         "packages": [
             {
                 "name": "LOGNO 1",
@@ -398,7 +405,7 @@
     {
         "id": 6,
         "name": "Christian",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t31.18172-8/18076509_271348439937497_5922770736657978796_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=4dc865&_nc_eui2=AeFd95CYohjaUuzzhxvVf5mgKlXym_zZy4YqVfKb_NnLhrnS0uTglyqxpUW6C197-J6e59uDPIlhUtyGvpBjkM_4&_nc_ohc=FbciUxKqPAMAX--8Uwi&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDQA2fphyYIEPr6_-9XVVaXU_5nJjRBo7OfVepHIozTvA&oe=6555C06E",
+        "image": "https://i.ibb.co/Jp7MWJD/cristian-wecompress-com.jpg",
         "packages": [
             {
                 "name": "CHRISTIAN PACKAGE 1",
@@ -454,7 +461,7 @@
     {
         "id": 7,
         "name": "Pre/Post-Wedding",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/277231593_1283645798707751_2987196241374862851_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFE7WWfxp6PpJMc-wcDeGIdv7OIyHzs2I-_s4jIfOzYj-7JW62y4-QIMLm8ftINrbl6kgu10_u3a7wNeYQdtRf6&_nc_ohc=_8q2nX6q1JYAX__UiLH&_nc_ht=scontent.fdac14-1.fna&oh=00_AfAKNU2B815vrzLbAfLaFsKPBMriJiLW1eP0aYvZZX5VWg&oe=65336505",
+        "image": "https://i.ibb.co/dQQhBDT/pre.jpg",
         "packages": [
             {
                 "name": "PRE/POST WEDDING 1",
@@ -479,7 +486,14 @@
                     "Duration: 5 Hours",
                     "20,000 BDT"
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Bridal Shower",
+        "image": "https://i.ibb.co/MPbbvGY/bridal-wecompress-com.jpg",
+        "packages": [
             {
                 "name": "BRIDAL SHOWER PACKAGE 1",
                 "details": [
@@ -507,9 +521,9 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Promotional Combo",
-        "image": "https://scontent.fdac14-1.fna.fbcdn.net/v/t1.6435-9/64573822_612936105778727_3807099048859533312_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=4dc865&_nc_eui2=AeHUgon9d4N0zzylxtrkFMBUYvaNUCPmCANi9o1QI-YIA4CtA1_lL0086Eh62QbeDtaQr2l_cVG0lOF9GXlkbuQ1&_nc_ohc=GLXcyZ6Tv0YAX_7qq54&_nc_ht=scontent.fdac14-1.fna&oh=00_AfAaMsdMnEyB7485mU7GEdCWSZX6eax94AuqYXx29gWKTg&oe=6555C4E0",
+        "image": "https://i.ibb.co/c3xGL4L/promotion-wecompress-com.jpg",
         "packages": [
             {
                 "name": "PROMOTIONAL COMBO PACKAGE",
@@ -524,6 +538,42 @@
                     "Pendrive Delivery + Lifetime Backup",
                     "35,000 BDT"
                 ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Add ons",
+        "description": "You can add this add ons to packages according to your convenience",
+        "image": "https://i.ibb.co/2dFstnN/2-wecompress-com.jpg",
+        "packages": [
+            {
+                "image": "https://i.ibb.co/xC6PfNw/add-ons-wecompress-com.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Custom Package",
+        "description": "You can create your own custom package according to your convenience",
+        "image": "https://i.ibb.co/wwrZk8n/1-wecompress-com.jpg",
+        "packages": [
+            {
+                "image": "https://i.ibb.co/XShVGT0/custom.jpg"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Gift Cards/Membership Cards",
+        "description": "You can create your own custom package according to your convenience",
+        "image": "https://i.ibb.co/H7N5NZ5/395682764-1663909034095563-188566760315910692-n.jpg",
+        "packages": [
+            {
+                "image": "https://i.ibb.co/7z0Mknc/gift.jpg"
+            },
+            {
+                "image": "https://i.ibb.co/GFZxg3h/gift-2.jpg"
             }
         ]
     }

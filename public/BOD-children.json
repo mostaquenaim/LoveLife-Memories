@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "SALMA AKHTER",
+        "position": "Director",
+        "email": "john.smith@example.com",
+        "phone": "+1 (123) 456-7890",
+        "image": "https://i.ibb.co/5G95psb/395736952-1663904494096017-1786655585399258107-n.jpg",
+        "linkedin": "https://www.linkedin.com/in/johnsmith"
+    },
+    {
+        "id": 6,
+        "name": "ISRAT SULTANA TOHFA",
+        "position": "Director",
+        "email": "robert.wilson@example.com",
+        "phone": "+1 (345) 678-9012",
+        "image": "https://i.ibb.co/nfBbQvD/395688079-1663904434096023-6697829873148867457-n.jpg",
+        "linkedin": "https://www.linkedin.com/in/robertwilson"
+    },
+    {
+        "id": 2,
+        "name": "KAMRUN NAHAR",
+        "position": "Director",
+        "email": "alice.johnson@example.com",
+        "phone": "+1 (234) 567-8901",
+        "image": "https://i.ibb.co/qg5sKcN/395708906-1663904567429343-7950522434652262049-n.jpg",
+        "linkedin": "https://www.linkedin.com/in/alicejohnson"
+    },
+    {
+        "id": 3,
+        "name": "MD MAHBUB HOSSAIN FARUK",
+        "position": "Director",
+        "email": "robert.wilson@example.com",
+        "phone": "+1 (345) 678-9012",
+        "image": "https://i.ibb.co/bd2G6Q4/395733404-1663904460762687-6145296191011661099-n.jpg",
+        "linkedin": "https://www.linkedin.com/in/robertwilson"
+    }
+]

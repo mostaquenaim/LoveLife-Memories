@@ -1,0 +1,30 @@
+[
+    {
+        "question": "What packages do you offer?",
+        "answer": "We offer a variety of photography and videography packages to suit different needs. Our packages include wedding photography, engagement sessions, family photoshoots, corporate event coverage, and more. You can choose the package that best fits your requirements."
+    },
+    {
+        "question": "Can I customize a package?",
+        "answer": "Yes, we understand that every event is unique, and you may have specific preferences. We are happy to work with you to customize a package that meets your exact needs. Just let us know your requirements, and we'll create a personalized package for you."
+    },
+    {
+        "question": "Do your packages include photo editing and retouching?",
+        "answer": "Yes, all our photography packages include post-processing and photo retouching. We take great care in enhancing and perfecting your photos to ensure they look their best. This service is included in the package price."
+    },
+    {
+        "question": "What is the cost of your packages?",
+        "answer": "Package prices vary depending on the type of event, duration, and specific services included. We offer packages to accommodate a range of budgets. To get detailed pricing information, please contact us, and we'll provide you with a customized quote."
+    },
+    {
+        "question": "Can I book multiple packages for one event?",
+        "answer": "Certainly! If you have a larger event or specific needs that require multiple packages, we can arrange a tailored solution for you. We'll discuss your requirements and create a comprehensive package that covers all aspects of your event."
+    },
+    {
+        "question": "What is included in the videography packages?",
+        "answer": "Our videography packages cover various services, including event video recording, editing, and delivery of the final video. We can also provide additional services like drone footage, interviews, and more, depending on your preferences."
+    },
+    {
+        "question": "How can I book a package?",
+        "answer": "To book a package, please get in touch with us through our contact page or by phone. We'll schedule a consultation to discuss your requirements, provide you with detailed package information, and guide you through the booking process."
+    }
+]

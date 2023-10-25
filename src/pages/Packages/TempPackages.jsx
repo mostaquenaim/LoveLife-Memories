@@ -1,16 +1,24 @@
 import { useEffect, useState } from 'react';
 import ShowPackage from '../../Component/Package/ShowPackage';
+import { useContext } from 'react';
+import { ProjectContext } from '../../Component/Context/Provider';
 
 const TempPackages = () => {
     const [packages, setPackages] = useState([]);
 
+    const {loading, setLoading} = useContext(ProjectContext)
+    
     useEffect(() => {
+        setLoading(true)
         // Fetch the JSON data from the public folder
         fetch('/packages.json')
             .then((response) => response.json())
             .then((data) => setPackages(data))
             .catch((error) => console.error('Error fetching data:', error));
-    }, []);
+
+        setLoading(false)
+
+    }, [setLoading]);
 
     return (
         <div>

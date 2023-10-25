@@ -1,19 +1,33 @@
+import { useContext } from 'react';
 import { useEffect, useState } from 'react';
 import { BsFillTelephoneFill, BsFacebook, BsInstagram, BsEnvelope } from 'react-icons/bs';
+import { ProjectContext } from '../../Component/Context/Provider';
 
 const Crew = () => {
     const [crewMembers, setCrewMembers] = useState([])
+    const { setLoading } = useContext(ProjectContext);
 
-    useEffect(()=>{
-        fetch('/crew.json')
-        .then(res => res.json())
-        .then(data => setCrewMembers(data))
-    },[])
-    
+    // useEffect(() => {
+    //     setLoading(true);
+
+    //     // Fetch the JSON data from the public folder
+    //     fetch('/crew.json')
+    //         .then((response) => response.json())
+    //         .then((data) => {
+    //             setCrewMembers(data);
+    //             setLoading(false); // Set loading to false after data is fetched
+    //         })
+    //         .catch((error) => {
+    //             console.error('Error fetching data:', error);
+    //             setLoading(false); // Make sure loading is set to false even if there's an error
+    //         });
+    // }, [setLoading]);
+
+
 
     return (
         <>
-            <div className='bg-base-100'>
+            <div className='bg-base-100 min-h-screen'> 
                 <section>
                     <div className='py-40'>
                         <header className="text-center py-4 text-neutral">

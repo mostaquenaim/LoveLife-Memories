@@ -1,11 +1,12 @@
 
-const ShowReview = ({review}) => {
+const ShowReview = ({ review }) => {
     return (
-        <div data-aos='fade-right'
-            key={review.id}
+        <div
+            // data-aos='fade-right'
+            // key={review.id}
             className="p-4 md:w-1/2 w-full"
         >
-            <div className="h-full bg-gray-100 p-8 rounded">
+            <div className="h-full p-8 rounded-md shadow-lg shadow-gray-500 bg-zinc-200 text-black">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -21,17 +22,17 @@ const ShowReview = ({review}) => {
                         src={review.avatar}
                         className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
-                    <div className="flex-grow flex flex-col pl-4">
-                        <span className="title-font font-medium text-gray-900">
+                    <div className="flex-grow flex flex-col pl-4 text-black opacity-70">
+                        <span className="title-font font-medium ">
                             {review.name}
                         </span>
-                        <span className="text-gray-500 text-sm">
+                        <span className=" text-sm">
                             {review.role}
                         </span>
-                        <span className="text-gray-500 text-sm">
+                        <span className=" text-sm">
                             Rating: {review.rating} Stars
                         </span>
-                        <span className="text-gray-500 text-sm">
+                        <span className=" text-sm">
                             Date: {review.date}
                         </span>
                     </div>

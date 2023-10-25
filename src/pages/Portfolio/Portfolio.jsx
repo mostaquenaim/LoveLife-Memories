@@ -3,6 +3,9 @@ import { useLoaderData } from 'react-router-dom';
 import Photo from '../../Component/Portfolio/Photo';
 import { BsArrowUpRight } from "react-icons/bs";
 import { data } from 'autoprefixer';
+import { useContext } from 'react';
+import { ProjectContext } from '../../Component/Context/Provider';
+import { FaInstagram, FaYoutube } from 'react-icons/fa6';
 
 const Portfolio = () => {
   const [isPhotosSelected, setIsPhotosSelected] = useState(true);
@@ -15,12 +18,24 @@ const Portfolio = () => {
 
   console.log(photos)
 
-  useEffect(() => {
-    fetch('/portfolio-videos.json')
-      .then(res => res.json())
-      .then(data => setVideos(data),setVideoLimit(data.length > 8 ? 8 : data.length))
-  }, [])
+  const { setLoading } = useContext(ProjectContext);
 
+  useEffect(() => {
+    setLoading(true);
+
+    // Fetch the JSON data from the public folder
+    fetch('/youtube.json')
+      .then((response) => response.json())
+      .then((data) => {
+        setVideos(data);
+        setVideoLimit(data.length > 6 ? 6 : data.length);
+        setLoading(false); // Set loading to false after data is fetched
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+        setLoading(false); // Make sure loading is set to false even if there's an error
+      });
+  }, [setLoading]);
 
   const handleToggle = (isPhotos) => {
     setIsPhotosSelected(isPhotos);
@@ -64,29 +79,29 @@ const Portfolio = () => {
             </div>
             <button onClick={() => setLimit(photos.length)} className={limit >= photos.length ? `hidden` : `btn my-5 text-center mx-auto items-center flex`}>Load more photos</button>
             <button
-              onClick={() => window.location.href = 'https://www.facebook.com/LovelifeMemoriesBD/photos_albums'}
-              className={limit >= photos.length ? `btn my-5 text-center mx-auto items-center flex bg-blue-400` : `hidden`}
+              onClick={() => window.location.href = 'https://www.instagram.com/lovelifememories_bd/'}
+              className={limit >= photos.length ? `btn my-5 text-center mx-auto items-center flex border-red-600 bg-gradient-to-r from-[#ff0062] to-[#fece00] ` : `hidden`}
             >
-              <BsArrowUpRight />
+              <FaInstagram className='text-lg'></FaInstagram>
               Explore more
             </button>
 
           </div>
         ) : (
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mx-5">
               {
                 videos.slice(0, videoLimit).map((video, index) => (
-                  <Photo key={index} item={video}></Photo>
+                  <iframe key={index} className='h-[300px] w-full' src={video} title="YouTube video player" frameorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 ))
               }
             </div>
             <button onClick={() => setVideoLimit(videos.length)} className={videoLimit >= videos.length ? `hidden` : `btn my-5 text-center mx-auto items-center flex`}>Load more</button>
             <button
-              onClick={() => window.location.href = 'https://www.facebook.com/LovelifeMemoriesBD/videos'}
-              className={videoLimit >= videos.length ? `btn my-5 text-center mx-auto items-center flex bg-blue-400` : `hidden`}
+              onClick={() => window.location.href = 'https://www.youtube.com/@lovelifememoriesbd'}
+              className={videoLimit >= videos.length ? `btn my-5 text-center mx-auto items-center flex text-white bg-red-700 hover:bg-red-500` : `hidden`}
             >
-              <BsArrowUpRight />
+              <FaYoutube className='text-lg'></FaYoutube>
               Explore more
             </button>
 

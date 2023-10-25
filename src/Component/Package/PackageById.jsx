@@ -1,6 +1,7 @@
 import React from 'react';
-import { BsFillTelephoneFill } from 'react-icons/bs';
+import { BsAlipay, BsFillTelephoneFill, BsPaypal } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import { MdPayment } from "react-icons/md";
 
 const PackageById = ({ item }) => {
     const { packages } = item;
@@ -12,21 +13,31 @@ const PackageById = ({ item }) => {
                     <div
                         key={index}
                         data-aos="fade-down"
-                        className="shadow-lg p-10 rounded-lg text-center bg-secondary bg-opacity-60">
+                        className={`shadow-lg p-10 rounded-lg text-center bg-secondary bg-opacity-60 ${index+1 === packages.length && index%3 === 0 && `lg:cols-span-3`}`}>
                         <div  >
                             <h2 className="text-lg font-bold text-neutral mb-5">{item.name}</h2>
 
                             {
-                                item.details.map((detail, index) => (
+                                item?.details ? item.details.map((detail, index) => (
                                     <p className='opacity-80' key={index}>{detail}</p>
                                 ))
+                                :
+                                <img src={item.image} alt="" />
                             }
                             <Link to={`tel:${phoneNo}`}>
-                                <button className="btn mt-10 text-white bg-black bg-opacity-20 hover:bg-black hover:bg-opacity-50" >
+                                <button className="btn btn-md mt-10 text-white bg-black bg-opacity-20 hover:bg-black hover:bg-opacity-50" >
                                     <BsFillTelephoneFill />
                                     Book Now!
                                 </button>
                             </Link>
+
+                            <Link to='/payment'>
+                            <button className="btn bg-blue-500 hover:bg-blue-600 text-white rounded-lg">
+                                <MdPayment />
+                                Pay Now!
+                            </button>
+                            </Link>
+
                         </div>
                     </div>
                 ))}

@@ -25,19 +25,24 @@ const TwoCompSwiper = ({ images }) => {
                 Pagination,
                 Scrollbar,
                 A11y,
-                // EffectFade
+                EffectFade
             ]}
+            loop
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={1}
             autoplay={{
                 delay: 2500,
                 pauseOnMouseEnter: true,
                 disableOnInteraction: false, // Optional, but recommended
             }}
+            effect='fade'
 
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
+            // navigation={{
+            //     nextEl: '.swiper-button-next', // Specify the custom class
+            //     prevEl: '.swiper-button-prev', // Specify the custom class
+            // }}
+            // pagination={{ clickable: true }}
+            // scrollbar={{ draggable: true }}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >

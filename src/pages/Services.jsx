@@ -1,16 +1,28 @@
 import { useState, useEffect } from 'react';
 import ShowServices from '../Component/ShowServices';
+import { useContext } from 'react';
+import { ProjectContext } from '../Component/Context/Provider';
 
 const Services = () => {
   const [services, setServices] = useState([]);
+  const { setLoading } = useContext(ProjectContext);
 
   useEffect(() => {
+    setLoading(true);
+
     // Fetch the JSON data from the public folder
     fetch('/services.json')
       .then((response) => response.json())
-      .then((data) => setServices(data))
-      .catch((error) => console.error('Error fetching data:', error));
-  }, []);
+      .then((data) => {
+        setServices(data);
+        setLoading(false); // Set loading to false after data is fetched
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+        setLoading(false); // Make sure loading is set to false even if there's an error
+      });
+  }, [setLoading]);
+
 
   return (
     <>

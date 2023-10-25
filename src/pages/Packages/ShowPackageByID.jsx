@@ -11,7 +11,7 @@ const ShowPackageByID = () => {
             <div className=''>
                 <h1 className="text-center text-3xl font-bold pt-20 lg:pt-48 pb-10 text-primary">{item.name} Packages</h1>
 
-                <div className='mx-10'>
+                <div className='mx-2 lg:mx-10'>
                 {
                     <PackageById item={item}></PackageById>
                 }

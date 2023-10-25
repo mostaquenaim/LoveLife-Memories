@@ -1,43 +1,56 @@
 [
-    {
-      "id": 1,
-      "name": "Mohammad Iftakher",
-      "avatar": "https://scontent.fdac14-1.fna.fbcdn.net/v/t1.6435-9/59152955_2366407813595271_1515478140946743296_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeFIXssyMYFIg2oTzkAab5fYlg7BviATr6WWDsG-IBOvpRpLnPqAqfd2MrSHOKqY9zfMMSZTp15BiNi66bCgc9yK&_nc_ohc=EWt5fqean0EAX8RTYpx&_nc_ht=scontent.fdac14-1.fna&oh=00_AfAfb023qLcg2EfTk4rASAGgIM4pyQh6i7zCvLE64B5_bw&oe=655854E1",
-      "rating": 5,
-      "review": "They are very professional. I'd highly recommend them. A Friend of mine told me about them and they really made my moments special. All the best wishes to you guys",
-      "date": "2022-1-22"
-    },
-    {
-      "id": 2,
-      "name": "Meraj Bhuiyan",
-      "avatar": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/316670455_2248873518619393_3033830592547592895_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGTk19eN39SA5VB3aA2WYz3LmJZ1l_xfi8uYlnWX_F-L7UVPICATgv7Rsdsr7M05F0kvO74_1EX2dhmv1TdZS1o&_nc_ohc=lnBEvG1JmpgAX-8x6K0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfB5u0E6k_EdeseTEszwqLtRAprVx0DuUQnhXsA6Z2jHKA&oe=6534E0DD",
-      "rating": 5,
-      "review": "Very professional and well organized!",
-      "date": "2022-1-10"
-    },
-    {
-      "id": 3,
-      "name": "Sadia Rind",
-      "avatar": "https://scontent.fdac14-1.fna.fbcdn.net/v/t1.6435-9/208918273_6182338548444630_154073148118665197_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=300f58&_nc_eui2=AeEccZMp75MUZ_sXj3SNyTq6qZzLXnWGlW2pnMtedYaVbZW4sp25ZHHMPiZqWAI0NwGFpgSnaGmJoxbe_9hb_ZEl&_nc_ohc=vGr4ri-1opoAX9_OuD_&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDaV8GdaPifhyPwrc6cXhkXIHyzIJ9v-yHR7ltWrrXbYw&oe=655849B9",
-      "rating": 5,
-      "review": "I was searching for a good photographers and videographers in Bangladesh for my Reception event and then i found this company Lovelife Memories. I am so glad to see their team work, passion and sincerity. And happy with the results.",
-      "date": "2022-1-14"
-    },
-    {
-      "id": 4,
-      "name": "Nabila Nawshin",
-      "avatar": "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/280926268_5345350325529587_2789715394167455724_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGiH4zxxSgArax16cGAxYsq5lkPLTXPeqnmWQ8tNc96qY_MBFClD6RPAIVE9DYi0WKZ2ZpwmUdcPeO6aO3vxB5M&_nc_ohc=YZ5G2K5YO3YAX85NR2s&_nc_ht=scontent.fdac14-1.fna&oh=00_AfBvlOXreI-heAaiwSFKasHDrfqVd7T_xxd3rvzxzgSG2A&oe=65366944",
-      "rating": 5,
-      "review": "They are amazing with their work, service and commitment.  They made our events memorable and special with their great work..!! Keep it up..!!",
-      "date": "2019-5-18"
-    },
-    {
-      "id": 5,
-      "name": "Rajikul Alam",
-      "avatar": "https://scontent.fdac14-1.fna.fbcdn.net/v/t1.6435-9/48418165_1267590660064303_6683515071638798336_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeHcCGif7vrTNYBIXI1s1rbFcxKiy0nOz7FzEqLLSc7PseOz3NBxrza6ITa4gAvqmqpkvtVHc_3IqrRaxRWC4DU7&_nc_ohc=m5KbHsismfsAX_VDwmZ&_nc_oc=AQmEVO9E8JPvgJJWEiqcIJPau19NA7p0U6GIknlvZOicVXn7KaEaCYXo1usGLSL-j3Q&_nc_ht=scontent.fdac14-1.fna&oh=00_AfBb9DRd5FWFuNzUhI-RlYk2kfPywSTg-m22evLBsrdY1w&oe=65584A18",
-      "rating": 5,
-      "review": "Team Lovelife Memories has one of the best photographers. Their Passion for Photography and Creativity makes them one of their kind amongst the rest.Love You Very Much Team Lovelife Memories",
-      "date": "2023-10-04"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Mohammad Iftakher",
+    "avatar": "https://i.ibb.co/qRy4Z0Z/male.png",
+    "rating": 5,
+    "sex": "male",
+    "review": "They are very professional. I'd highly recommend them. A Friend of mine told me about them and they really made my moments special. All the best wishes to you guys",
+    "date": "2022-1-22"
+  },
+  {
+    "id": 2,
+    "name": "Meraj Bhuiyan",
+    "avatar": "https://i.ibb.co/qRy4Z0Z/male.png",
+    "rating": 5,
+    "sex": "male",
+    "review": "Very professional and well organized!",
+    "date": "2022-1-10"
+  },
+  {
+    "id": 3,
+    "name": "Sadia Rind",
+    "avatar": "https://i.ibb.co/jZ43k06/female.png",
+    "rating": 5,
+    "sex": "female",
+    "review": "I was searching for a good photographers and videographers in Bangladesh for my Reception event and then i found this company Lovelife Memories. I am so glad to see their team work, passion and sincerity. And happy with the results.",
+    "date": "2022-1-14"
+  },
+  {
+    "id": 4,
+    "name": "Nabila Nawshin",
+    "avatar": "https://i.ibb.co/jZ43k06/female.png",
+    "rating": 5,
+    "sex": "female",
+    "review": "They are amazing with their work, service and commitment.  They made our events memorable and special with their great work..!! Keep it up..!!",
+    "date": "2019-5-18"
+  },
+  {
+    "id": 5,
+    "name": "Rajikul Alam",
+    "avatar": "https://i.ibb.co/qRy4Z0Z/male.png",
+    "rating": 5,
+    "sex": "male",
+    "review": "Team Lovelife Memories has one of the best photographers. Their Passion for Photography and Creativity makes them one of their kind amongst the rest.Love You Very Much Team Lovelife Memories",
+    "date": "2023-10-04"
+  },
+  {
+    "id": 6,
+    "name": "Mishu Mahmud",
+    "avatar": "https://i.ibb.co/qRy4Z0Z/male.png",
+    "rating": 5,
+    "sex": "male",
+    "review": "Very efficient team, nice work. I recommend them for the event photography.",
+    "date": "2023-12-21"
+  }
+]
